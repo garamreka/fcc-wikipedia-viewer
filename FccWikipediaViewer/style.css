@@ -1,0 +1,56 @@
+body {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/1/15/Wikipedia_logo_bronce.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 5%;
+    text-align: center;
+}
+ 
+h1, .language-select {
+    background: white;
+    border: 1px solid black;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Helvetica Neue', sans-serif
+}
+ 
+.btn, h1, .language-select, input {
+    border-radius: 5px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    padding: 10px;
+}
+
+.result-box {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    padding: 10px;
+    text-align: left;
+}
+ 
+.btn, input {
+    background-color: white;
+    border: 1px solid black;
+}
+ 
+.btn {
+    background-color: lightgray;
+}
+ 
+button:active {
+    transform: translateY(4px);
+}
+ 
+@media only screen and (max-width: 750px) {
+    h1, .language-select {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+ }
